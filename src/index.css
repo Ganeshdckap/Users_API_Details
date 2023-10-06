@@ -1,0 +1,74 @@
+
+
+.container h2{
+  display: flex;
+
+   justify-content: center;
+}
+.slide .slide {
+  text-align: center; 
+}
+
+.slide .slide img {
+  width: 50%;
+  height: auto;
+}
+.slide h5{
+  color: rgb(255, 255, 255);
+}
+/* If you want to style the Carousel controls or indicators, you can add more CSS here */
+.Allbuttons {
+  text-align: center; 
+}
+
+.Allbuttons .btn {
+  margin: 5px; 
+}
+
+/* You can add more specific styles for the buttons as needed */
+.Allbuttons .btn:hover {
+  background-color: #3498db; 
+  color: #fff; 
+}
+/* ------------------------------------------------- */
+.Card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  /* justify-content: flex-start; */
+}
+
+.Card > div {
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  padding: 10px; 
+  margin: 10px;
+  text-align: center;
+  max-width: 200px; 
+}
+
+.Card img {
+  max-width: 100%; 
+  border-radius: 8px; 
+}
+
+.Card p {
+  margin: 10px 0; 
+  font-weight: bold;
+}
+.pageNa {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+
+}
+.pageNa button{
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+}
+.back{
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+}
